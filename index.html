@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,500;1,700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="flex-clas">
+    <div class="main-container">
+        <header class="flex-clas">
+            <h2>Hello Mr. -----<br> Welcome</h2>
+        </header>
+        <main>
+            <div class="balanc-container">
+                <h3 class="account-balance">Account Balance: <span id="balance">0</span>$</h3>
+                <div id="history" class="history">
+
+                </div>
+            </div>
+            <div>
+                <div class="container deposit flex-clas">
+                    <input type="number" name="" id="deposit">
+                    <button class="btn green" onclick="addDeposit()">Deposit</button>
+                </div>
+                <div class="container withdraw flex-clas">
+                    <input type="number" name="" id="withdraw">
+                    <button class="btn red" onclick="withdraw()">withdraw</button>
+                </div>
+                <div class="container alert flex-clas">
+                    <p>Alert</p>
+                    <p id="alert"></p>
+                </div>
+            </div>
+        </main>
+        <footer class="flex-clas">
+            <h2>Footer</h2>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

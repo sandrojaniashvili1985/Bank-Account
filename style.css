@@ -1,0 +1,127 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(246,251,255);
+    margin: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    background-color: rgb(255,255,255);
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 460px;
+    padding: 10px 15px;
+}
+
+header{
+    background-color: rgb(125,194,113);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.balanc-container{
+    width: 270px;
+}
+
+.account-balance{
+    background-color: rgb(205,232,251);
+    border-radius: 10px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 10px;
+
+}
+
+.history {
+    background-color: rgb(237,248,250);
+    height: 82%;
+    border-radius: 10px;
+    padding-top: 10px;
+    max-height: 330px;
+    overflow-y: scroll;
+}
+
+.history p {
+    margin: 10px 30px;
+    border-radius: 8px;
+    padding: 5px 8px;
+}
+
+.container{
+    height: 130px;
+    width: 180px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+}
+
+.deposit{
+    background-color: rgb(214,237,251);
+}
+
+.withdraw{
+    background-color: rgb(244,212,174);
+    
+}
+.alert{
+    background-color: rgb(214,237,251);
+}
+
+#alert {
+    padding-left: 10px;
+}
+
+footer{
+    background-color: rgb(118,195,241);
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.flex-clas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+input {
+    width: 70px;
+    height: 25px;
+    border-radius: 8px;
+    border: none;
+    padding: 0 5px;
+}
+
+#alert {
+    color: rgb(191, 47, 47);
+}
+
+.red{
+    background-color: rgb(216,89,70);
+}
+
+.green{
+    background-color: rgb(155,227,141);
+}
